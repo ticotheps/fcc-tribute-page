@@ -1,0 +1,80 @@
+html, body {
+  font-family: Helvetica;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#main {
+  border: solid black 5px;
+  border-radius: 5px;
+}
+
+#title {
+  font-size: 50px;
+}
+
+h2 {
+  font-style: italic;
+  font-size: 25px;
+}
+
+#img-div {
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+#image {
+  border-radius: 50%;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#img-caption {
+  margin: 10px
+}
+
+#tribute-info {
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  font-size: 18px;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+h4 {
+  font-weight: 400;
+  padding: 15px;
+}
+
+em {
+  color: #4DD0E1;
+}
+
+#tribute-link {
+  font-style: italic;
+  font-weight: bold;
+  color: blue;
+}
